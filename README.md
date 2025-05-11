@@ -308,87 +308,6 @@ O sistema inclui diálogos modais para adição de novos itens:
 - **AddReportDialog**: Gerar novos relatórios
 - **AddClientDialog**: Cadastrar novos clientes
 
-## Estrutura do Projeto
-
-\`\`\`
-financial-dashboard/
-├── app/                      # Rotas da aplicação (Next.js App Router)
-│   ├── layout.tsx            # Layout principal
-│   ├── page.tsx              # Página inicial (Dashboard)
-│   ├── receitas/             # Página de Receitas
-│   ├── despesas/             # Página de Despesas
-│   ├── orcamentos/           # Página de Orçamentos
-│   ├── transacoes/           # Página de Transações
-│   ├── investimentos/        # Página de Investimentos
-│   ├── relatorios/           # Página de Relatórios
-│   ├── clientes/             # Página de Clientes
-│   └── configuracoes/        # Página de Configurações
-├── components/               # Componentes reutilizáveis
-│   ├── cards/                # Cards de métricas
-│   ├── charts/               # Componentes de gráficos
-│   ├── dialogs/              # Diálogos modais
-│   ├── pages/                # Conteúdo específico de páginas
-│   ├── tables/               # Tabelas de dados
-│   ├── ui/                   # Componentes de UI (shadcn)
-│   ├── dashboard.tsx         # Componente principal do dashboard
-│   ├── dashboard-header.tsx  # Cabeçalho do dashboard
-│   ├── dashboard-sidebar.tsx # Barra lateral de navegação
-│   └── dashboard-shell.tsx   # Shell para páginas internas
-└── public/                   # Arquivos estáticos
-\`\`\`
-
-## Documentação da API
-
-O FinDash inclui uma API REST para integração com outros sistemas:
-
-### Endpoints Principais
-
-- `GET /api/dashboard` - Obtém dados resumidos do dashboard
-- `GET /api/transactions` - Lista transações com paginação
-- `POST /api/reports/generate` - Gera um novo relatório
-
-A documentação completa da API está disponível em [docs/api.md](docs/api.md).
-
-## Exemplos de Uso
-
-### Gerando um Relatório Personalizado
-
-\`\`\`typescript
-// Exemplo de como usar a API para gerar um relatório
-import { generateReport } from '@/lib/reports';
-
-const report = await generateReport({
-  type: 'financial',
-  period: {
-    start: new Date('2025-01-01'),
-    end: new Date('2025-03-31')
-  },
-  format: 'pdf'
-});
-
-console.log(`Relatório gerado: ${report.url}`);
-\`\`\`
-
-### Integrando com Sistemas Externos
-
-\`\`\`typescript
-// Exemplo de como importar transações de um sistema externo
-import { importTransactions } from '@/lib/transactions';
-
-const result = await importTransactions({
-  source: 'csv',
-  file: csvFile,
-  mapping: {
-    date: 'Data',
-    description: 'Descrição',
-    amount: 'Valor',
-    category: 'Categoria'
-  }
-});
-
-console.log(`${result.imported} transações importadas com sucesso`);
-\`\`\`
-
 ## Contribuindo
 
 Contribuições são sempre bem-vindas!
@@ -415,23 +334,6 @@ Veja [CONTRIBUTING.md](CONTRIBUTING.md) para mais detalhes.
 
 Este projeto adota o [Código de Conduta do Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 Ao participar, espera-se que você respeite este código.
-
-## Roadmap
-
-### Q2 2025
-- [ ] Implementação de autenticação e autorização
-- [ ] Integração com APIs bancárias
-- [ ] Versão mobile responsiva
-
-### Q3 2025
-- [ ] Análise preditiva com IA
-- [ ] Notificações em tempo real
-- [ ] Dashboards personalizáveis
-
-### Q4 2025
-- [ ] Integração com sistemas contábeis
-- [ ] Exportação avançada de relatórios
-- [ ] Marketplace de plugins
 
 ## Melhorias Futuras
 
@@ -503,22 +405,6 @@ O FinDash inclui integração opcional com ferramentas de analytics:
 - **Analytics Personalizados**: Suporte para Google Analytics, Plausible, ou Fathom
 
 Configure as preferências de analytics em `config/analytics.ts`.
-
-## Changelog
-
-### v1.0.0 (Maio 2025)
-- Lançamento inicial
-- Dashboard completo com 8 módulos principais
-- Suporte a relatórios personalizados
-
-### v0.9.0 (Abril 2025)
-- Versão beta pública
-- Implementação de todos os gráficos e visualizações
-- Correções de bugs e melhorias de desempenho
-
-### v0.5.0 (Fevereiro 2025)
-- Versão alpha
-- Implementação inicial do dashboard e navegação
 
 ## Agradecimentos
 
