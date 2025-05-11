@@ -7,8 +7,6 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
-![FinDash Logo](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo%20%28simbolo%29-JPCwuTv6tzeF06UiO9G1Dcw2xAEIN1.png)
-
 FinDash é um dashboard financeiro completo para gerenciamento e análise de finanças empresariais. A aplicação oferece uma visão abrangente dos indicadores financeiros, com ferramentas para monitoramento de receitas, despesas, orçamentos, transações, investimentos, relatórios e clientes.
 
 ## Demonstração
@@ -546,4 +544,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-Desenvolvido com ❤️ pela Equipe FinDash
+Desenvolvido com ❤️ pela Equipe DevPorto
