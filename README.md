@@ -254,56 +254,47 @@ Credenciais para teste:
 ## Screenshots
 
 ### Dashboard Principal
-![Dashboard Principal](/screenshots/dashboard-principal.png)
+![Dashboard Principal](/public/screenshots/dashboard-principal.png)
 *Visão geral do dashboard com métricas principais, gráficos de fluxo de caixa e distribuição de despesas.*
 
 ### Receitas
-![Página de Receitas](/screenshots/receitas.png)
+![Página de Receitas](/public/screenshots/receitas.png)
 *Página de gerenciamento de receitas com métricas, gráficos e tabela de histórico.*
 
 ### Despesas
-![Página de Despesas](/screenshots/despesas.png)
+![Página de Despesas](/public/screenshots/despesas.png)
 *Análise detalhada de despesas com distribuição por categorias e histórico.*
 
 ### Orçamentos
-![Página de Orçamentos](/screenshots/orcamentos.png)
+![Página de Orçamentos](/public/screenshots/orcamentos.png)
 *Acompanhamento de orçamentos com comparativo entre valores planejados e realizados.*
 
 ### Transações
-![Página de Transações](/screenshots/transacoes.png)
+![Página de Transações](/public/screenshots/transacoes.png)
 *Registro completo de transações financeiras com filtros avançados.*
 
 ### Investimentos
-![Página de Investimentos](/screenshots/investimentos.png)
+![Página de Investimentos](/public/screenshots/investimentos.png)
 *Monitoramento de investimentos com análise de desempenho e alocação de ativos.*
 
 ### Relatórios
-![Página de Relatórios](/screenshots/relatorios.png)
+![Página de Relatórios](/public/screenshots/relatorios.png)
 *Geração e visualização de relatórios financeiros personalizados.*
 
 ### Clientes
-![Página de Clientes](/screenshots/clientes.png)
+![Página de Clientes](/public/screenshots/clientes.png)
 *Gerenciamento de clientes com análise de receita e segmentação.*
 
 ### Configurações
-![Página de Configurações](/screenshots/configuracoes.png)
+![Página de Configurações](/public/screenshots/configuracoes.png)
 *Personalização de preferências do sistema e da conta de usuário.*
 
 ### Diálogos de Adição
-![Diálogo de Adição de Receita](/screenshots/dialogo-receita.png)
+![Diálogo de Adição de Receita](/public/screenshots/dialogo-receita.png)
 *Interface para adição de novas receitas ao sistema.*
 
-![Diálogo de Adição de Relatório](/screenshots/dialogo-relatorio.png)
+![Diálogo de Adição de Relatório](/public/screenshots/dialogo-relatorio.png)
 *Interface para geração de novos relatórios personalizados.*
-
-## Como Adicionar Screenshots ao Projeto
-
-Para adicionar as capturas de tela ao seu projeto:
-
-1. Crie uma pasta `public/screenshots/` na raiz do projeto
-2. Capture as telas principais do dashboard
-3. Salve as imagens na pasta com nomes descritivos (ex: dashboard-principal.png)
-4. As imagens serão automaticamente referenciadas no README
 
 ## Componentes de Diálogo
 
