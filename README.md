@@ -11,7 +11,7 @@ FinDash é um dashboard financeiro completo para gerenciamento e análise de fin
 
 ## Demonstração
 
-Veja o FinDash em ação: [Demo ao vivo](https://findash-demo.vercel.app)
+Veja o FinDash em ação: [Demo ao vivo](https://findash-nine.vercel.app)
 
 Credenciais para teste:
 - **Usuário**: demo@findash.com
